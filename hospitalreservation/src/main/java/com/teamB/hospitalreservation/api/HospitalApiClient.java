@@ -23,6 +23,8 @@ import java.util.stream.Collectors;
 @Component
 public class HospitalApiClient {
 
+    //https://apis.data.go.kr/B551182/hospInfoServicev2/getHospBasisList?serviceKey=pELcwY0hLrcCmA%2BqJUSOy0k2I8SnYZ4Mvp0V8fof5CdZTXTKV6ca1UGZMYgCclsTcWcvHfAZnxIIYfrsws0Byw==&pageNo=1&numOfRows=100&sidoCd=110000&sgguCd=110023&_type=json
+
     private final RestTemplate restTemplate;
     private final ObjectMapper objectMapper = new ObjectMapper();
 
